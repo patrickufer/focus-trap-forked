@@ -558,10 +558,10 @@ const createFocusTrap = function (elements, userOptions) {
       capture: true,
       passive: false,
     });
-    doc.addEventListener('click', checkClick, {
-      capture: true,
-      passive: false,
-    });
+    // doc.addEventListener('click', checkClick, {
+    //   capture: true,
+    //   passive: false,
+    // });
     doc.addEventListener('keydown', checkKey, {
       capture: true,
       passive: false,
